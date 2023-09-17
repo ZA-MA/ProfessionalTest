@@ -2,8 +2,40 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:ProfessionalTest"
-             StartupUri="MainWindow.xaml">
+             StartupUri="view/MainWindow.xaml">
     <Application.Resources>
-         
+        <Style x:Key="MyButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="Transparent" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid Background="{TemplateBinding Background}">
+                            <ContentPresenter />
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Foreground" Value="#FF424AC0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Foreground" Value="#FF2C3180"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="MyRBTextStyle" TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="Segoe Print"/>
+            <Setter Property="Foreground" Value="#FF424AC0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Foreground" Value="#FF2C3180"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
     </Application.Resources>
 </Application>
