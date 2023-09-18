@@ -24,6 +24,6 @@
 
         </Button>
 
-        <Frame x:Name="Frame" Content="Frame" Margin="80,39,112,41" Panel.ZIndex="1" NavigationUIVisibility="Hidden"  MinHeight="620" Width="540"/>
+        <Frame x:Name="Frame" Content="Frame" Margin="80,39,30,41" Panel.ZIndex="1" NavigationUIVisibility="Hidden"  MinHeight="620"/>
     </Grid>
 </Window>
