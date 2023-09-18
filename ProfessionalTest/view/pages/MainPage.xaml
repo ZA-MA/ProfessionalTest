@@ -8,12 +8,16 @@
       Title="MainPage" Width="540" Height="622">
 
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="230"/>
+            <RowDefinition Height="10*"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="460"/>
-            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="440"/>
+            <ColumnDefinition Width="100"/>
         </Grid.ColumnDefinitions>
         <TextBlock HorizontalAlignment="Center" 
-                   Margin="0,58,0,0" TextWrapping="Wrap" 
+                   Margin="0,39,0,0" TextWrapping="Wrap" 
                    VerticalAlignment="Top" FontFamily="Segoe Print" 
                    FontSize="36" TextAlignment="Center" 
                    Foreground="#FF424AC0" Width="440" Grid.RowSpan="1">
@@ -22,7 +26,7 @@
                 <LineBreak/>
             <Run Text="&quot;Твоя будущая профессия&quot;"/>
         </TextBlock>
-        <Button Style="{StaticResource MyButtonStyle}" Content="Начать" HorizontalAlignment="Left" Margin="204,467,0,0" VerticalAlignment="Top" Height="58" Width="132" FontFamily="Segoe Print" FontSize="30" Click="Button_Click"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="99,447,0,0" VerticalAlignment="Top" Width="100" Source="/images/starImage.png" RenderTransformOrigin="-0.08,0.268"/>
+        <Button Style="{StaticResource MyButtonStyle}" Content="Начать" HorizontalAlignment="Left" Margin="204,237,0,0" VerticalAlignment="Top" Height="58" Width="132" FontFamily="Segoe Print" FontSize="30" Click="Button_Click" Grid.Row="1"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="99,217,0,0" VerticalAlignment="Top" Width="100" Source="/images/starImage.png" RenderTransformOrigin="-0.08,0.268" Grid.Row="1"/>
     </Grid>
 </Page>

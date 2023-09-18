@@ -13,13 +13,42 @@
             <RowDefinition Height="10*"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="440"/>
             <ColumnDefinition Width="100"/>
         </Grid.ColumnDefinitions>
         <TextBlock x:Name="TB_QuestionText" HorizontalAlignment="Center" TextWrapping="Wrap" 
        VerticalAlignment="Center" FontFamily="Segoe Print" 
        FontSize="24" TextAlignment="Center" 
        Foreground="#FF424AC0" Width="440" Height="90"/>
+
+        <ListBox x:Name="L_Answers" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" d:ItemsSource="{d:SampleData ItemCount=8}" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2" Grid.ColumnSpan="2" Panel.ZIndex="2" Margin="436,3,6,383" FontFamily="Segoe Print">
+            <ListBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="4.942"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ListBox.RenderTransform>
+            <ListBox.Style>
+                <Style TargetType="ListBox">
+                    <Setter Property="Background" Value="Transparent"/>
+                    <Setter Property="BorderBrush" Value="Transparent"/>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Transparent"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </ListBox.Style>
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text="{Binding}" TextWrapping="Wrap"/>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+
         <Grid Grid.Row="1" >
             <Grid.RowDefinitions>
                 <RowDefinition Height="75"/>
@@ -85,5 +114,6 @@
             </RadioButton>
             <Button x:Name="Btn_next" Grid.Column="1" Content="Дальше" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Click="Btn_next_Click"/>
         </Grid>
+
     </Grid>
 </Page>
