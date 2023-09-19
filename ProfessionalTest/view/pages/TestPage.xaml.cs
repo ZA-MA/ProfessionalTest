@@ -31,19 +31,19 @@ namespace ProfessionalTest.view.pages
             {"ProfessionAnswer1", "" },
         };
 
-        Dictionary<string, string> question1 = new Dictionary<string, string>()
+        static Dictionary<string, string> question1 = new Dictionary<string, string>()
         {
             {"text", "На базе какого образования поступаете?" },
             {"answer1", "Аттестат" },
             {"answer2", "Диплом" },
         };
-        Dictionary<string, string> question2 = new Dictionary<string, string>()
+        static Dictionary<string, string> question2 = new Dictionary<string, string>()
         {
-            {"text", "9 или 11?" },
+            {"text", "9 или 11 классов?" },
             {"answer1", "9 классов"},
             {"answer2", "11 классов" },
         };
-        Dictionary<string, string> question3 = new Dictionary<string, string>()
+        static Dictionary<string, string> question3 = new Dictionary<string, string>()
         {
             {"text", "Какая область вам подходит?" },
             {"answer1", "Изучение космоса"},
@@ -56,7 +56,7 @@ namespace ProfessionalTest.view.pages
             {"ProfessionAnswer7", "Спасатель" },
             {"ProfessionAnswer8", "Кинолог" },
         };
-        Dictionary<string, string> question4 = new Dictionary<string, string>()
+        static Dictionary<string, string> question4 = new Dictionary<string, string>()
         {
             {"text", "Чем хотите заниматься?" },
             {"answer1", "Готовить"},
@@ -67,13 +67,13 @@ namespace ProfessionalTest.view.pages
             {"answer6", "Общаться с людьми" },
             {"answer7", "Работать с техникой" },
         };
-        Dictionary<string, string> question5 = new Dictionary<string, string>()
+        static Dictionary<string, string> question5 = new Dictionary<string, string>()
         {
             {"text", "Какая форма обучения?" },
             {"answer1", "Очная"},
             {"answer2", "Заочная" },
         };
-        Dictionary<string, string> question6 = new Dictionary<string, string>()
+        static Dictionary<string, string> question6 = new Dictionary<string, string>()
         {
             {"text", "Что готовить?" },
             {"answer1", "Десерты"},
@@ -81,7 +81,7 @@ namespace ProfessionalTest.view.pages
             {"ProfessionAnswer1", "Кондитер" },
             {"ProfessionAnswer2", "Мясник" },
         };
-        Dictionary<string, string> question7 = new Dictionary<string, string>()
+        static Dictionary<string, string> question7 = new Dictionary<string, string>()
         {
             {"text", "В какой области?" },
             {"answer1", "Пищевая"},
@@ -91,7 +91,7 @@ namespace ProfessionalTest.view.pages
             {"ProfessionAnswer2", "Контролер хим. анализа" },
             {"ProfessionAnswer3", "Контролер станочных работ" },
         };
-        Dictionary<string, string> question8 = new Dictionary<string, string>()
+        static Dictionary<string, string> question8 = new Dictionary<string, string>()
         {
             {"text", "Xотите обучать людей спортом?" },
             {"answer1", "Да"},
@@ -99,42 +99,42 @@ namespace ProfessionalTest.view.pages
             {"ProfessionAnswer1", "Спортивный тренер" },
             {"ProfessionAnswer2", "Спортсмен" },
         };
-        Dictionary<string, string> question9 = new Dictionary<string, string>()
+        static Dictionary<string, string> question9 = new Dictionary<string, string>()
         {
             {"text", "Хотите заниматься облагораживанием территории?" },
             {"answer1", "Да"},
             {"answer2", "Нет" },
             {"ProfessionAnswer1", "Ландшафтный дизайнер" },
         };
-        Dictionary<string, string> question10 = new Dictionary<string, string>()
+        static Dictionary<string, string> question10 = new Dictionary<string, string>()
         {
             {"text", "Интересна ли вам медицина?" },
             {"answer1", "Нет"},
             {"answer2", "Да" },
             {"ProfessionAnswer2", "Ветеринар" },
         };
-        Dictionary<string, string> question11 = new Dictionary<string, string>()
+        static Dictionary<string, string> question11 = new Dictionary<string, string>()
         {
             {"text", "Какая область вам ближе?" },
             {"answer1", "Медицина"},
             {"answer2", "Педагогика" },
         };
-        Dictionary<string, string> question12 = new Dictionary<string, string>()
+        static Dictionary<string, string> question12 = new Dictionary<string, string>()
         {
             {"text", "Какой вы пользователь ПК?" },
             {"answer1", "Начальный"},
             {"answer2", "Продвинутый" },
             {"ProfessionAnswer1", "Оператор ЭВМ" },
         };
-        Dictionary<string, string> question13 = new Dictionary<string, string>()
+        static Dictionary<string, string> question13 = new Dictionary<string, string>()
         {
             {"text", "Что вам интересно?" },
             {"answer1", "Фермерство"},
-            {"answer2", "Изучение, выведение новых видов" },
+            {"answer2", "Изучение, выведение видов" },
             {"ProfessionAnswer1", "Агроном" },
             {"ProfessionAnswer2", "Биолог" },
         };
-        Dictionary<string, string> question14 = new Dictionary<string, string>()
+        static Dictionary<string, string> question14 = new Dictionary<string, string>()
         {
             {"text", "Нравится ли вам работать с людьми?" },
             {"answer1", "Да"},
@@ -142,7 +142,7 @@ namespace ProfessionalTest.view.pages
             {"ProfessionAnswer1", "Педиатр" },
             {"ProfessionAnswer2", "Терапевт" },
         };
-        Dictionary<string, string> question15 = new Dictionary<string, string>()
+        static Dictionary<string, string> question15 = new Dictionary<string, string>()
         {
             {"text", "Нравится ли вам заниматься танцами?" },
             {"answer1", "Да"},
@@ -150,7 +150,7 @@ namespace ProfessionalTest.view.pages
             {"ProfessionAnswer1", "Хореограф" },
             {"ProfessionAnswer2", "Воспитатель" },
         };
-        Dictionary<string, string> question16 = new Dictionary<string, string>()
+        static Dictionary<string, string> question16 = new Dictionary<string, string>()
         {
             {"text", "Что вам ближе?" },
             {"answer1", "БД"},
@@ -158,13 +158,13 @@ namespace ProfessionalTest.view.pages
             {"ProfessionAnswer1", "Администратор БД" },
             {"ProfessionAnswer2", "Программист" },
         };
-        Dictionary<string, string> question17 = new Dictionary<string, string>()
+        static Dictionary<string, string> question17 = new Dictionary<string, string>()
         {
             {"text", "Чем хотите заниматься?" },
             {"answer1", "Работать с растениями"},
             {"answer2", "Работать с техникой" },
         };
-        Dictionary<string, string> question18 = new Dictionary<string, string>()
+        static Dictionary<string, string> question18 = new Dictionary<string, string>()
         {
             {"text", "Хотели бы побывать в космосе?" },
             {"answer1", "Да"},
@@ -172,7 +172,7 @@ namespace ProfessionalTest.view.pages
             {"ProfessionAnswer1", "Космонавт" },
             {"ProfessionAnswer2", "Астроном" },
         };
-        Dictionary<string, string> question19 = new Dictionary<string, string>()
+        static Dictionary<string, string> question19 = new Dictionary<string, string>()
         {
             {"text", "Хотите заниматься информационной деятельностью?" },
             {"answer1", "Да"},
@@ -180,7 +180,7 @@ namespace ProfessionalTest.view.pages
             {"ProfessionAnswer1", "Специалист ИБ" },
             {"ProfessionAnswer2", "Аналитик BIG DATA" },
         };
-        Dictionary<string, string> question20 = new Dictionary<string, string>()
+        static Dictionary<string, string> question20 = new Dictionary<string, string>()
         {
             {"text", "Хотите заниматься информационной деятельностью?" },
             {"answer1", "Да"},
@@ -188,7 +188,7 @@ namespace ProfessionalTest.view.pages
             {"ProfessionAnswer1", "Редактор" },
             {"ProfessionAnswer2", "Педагог" },
         };
-        Dictionary<string, string> question21 = new Dictionary<string, string>()
+        static Dictionary<string, string> question21 = new Dictionary<string, string>()
         {
             {"text", "Хотите управлять транспортом?" },
             {"answer1", "Да"},
@@ -196,14 +196,14 @@ namespace ProfessionalTest.view.pages
             {"ProfessionAnswer1", "Судоводитель" },
             {"ProfessionAnswer2", "Бортпроводник" },
         };
-        Dictionary<string, string> question22 = new Dictionary<string, string>()
+        static Dictionary<string, string> question22 = new Dictionary<string, string>()
         {
             {"text", "Получается ли у вас решать трудности других?" },
             {"answer1", "Да"},
             {"answer2", "Нет" },
             {"ProfessionAnswer1", "Адвокат" },
         };
-        Dictionary<string, string> question23 = new Dictionary<string, string>()
+        static Dictionary<string, string> question23 = new Dictionary<string, string>()
         {
             {"text", "Хотите быть в эпицентре событий?" },
             {"answer1", "Да"},
@@ -213,6 +213,7 @@ namespace ProfessionalTest.view.pages
         };
 
         int countQuestion = 1;
+        static Dictionary<string, string> questions = question1;
 
         List<string> answers = new List<string> ();
 
@@ -240,26 +241,29 @@ namespace ProfessionalTest.view.pages
                         L_Answers.Items.Add(question1["answer1"]);
                        
                         countQuestion = 2;
+                        questions = question2;
+
                         RB1.IsChecked = false;
-                        TB_QuestionText.Text = question2["text"];
-                        RB1_Text.Text = question2["answer1"];
-                        RB2_Text.Text = question2["answer2"];
+                        TB_QuestionText.Text = questions["text"];
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
                     }
                     else if(RB2.IsChecked == true) 
                     {
                         L_Answers.Items.Add(question1["answer2"]);
                         countQuestion = 3;
+                        questions = question3;
                         RB2.IsChecked = false;
 
-                        TB_QuestionText.Text = question3["text"];
+                        TB_QuestionText.Text = questions["text"];
 
-                        RB1_Text.Text = question3["answer1"];
-                        RB2_Text.Text = question3["answer2"];
-                        RB3_Text.Text = question3["answer3"];
-                        RB4_Text.Text = question3["answer4"];
-                        RB5_Text.Text = question3["answer5"];
-                        RB6_Text.Text = question3["answer6"];
-                        RB7_Text.Text = question3["answer7"];
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+                        RB3_Text.Text = questions["answer3"];
+                        RB4_Text.Text = questions["answer4"];
+                        RB5_Text.Text = questions["answer5"];
+                        RB6_Text.Text = questions["answer6"];
+                        RB7_Text.Text = questions["answer7"];
 
                         RB3.Visibility = Visibility.Visible;
                         RB4.Visibility = Visibility.Visible;
@@ -273,16 +277,17 @@ namespace ProfessionalTest.view.pages
                     {
                         L_Answers.Items.Add(question2["answer1"]);
                         countQuestion = 4;
+                        questions = question4;
                         RB1.IsChecked  = false;
-                        TB_QuestionText.Text = question4["text"];
+                        TB_QuestionText.Text = questions["text"];
 
-                        RB1_Text.Text = question4["answer1"];
-                        RB2_Text.Text = question4["answer2"];
-                        RB3_Text.Text = question4["answer3"];
-                        RB4_Text.Text = question4["answer4"];
-                        RB5_Text.Text = question4["answer5"];
-                        RB6_Text.Text = question4["answer6"];
-                        RB7_Text.Text = question4["answer7"];
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+                        RB3_Text.Text = questions["answer3"];
+                        RB4_Text.Text = questions["answer4"];
+                        RB5_Text.Text = questions["answer5"];
+                        RB6_Text.Text = questions["answer6"];
+                        RB7_Text.Text = questions["answer7"];
 
                         RB3.Visibility = Visibility.Visible;
                         RB4.Visibility = Visibility.Visible;
@@ -292,13 +297,496 @@ namespace ProfessionalTest.view.pages
                     }
                     else if (RB2.IsChecked == true)
                     {
+                        L_Answers.Items.Add(question2["answer2"]);
                         countQuestion = 5;
+                        questions = question5;
                         RB2.IsChecked = false;
 
-                        TB_QuestionText.Text = question5["text"];
+                        TB_QuestionText.Text = questions["text"];
 
-                        RB1_Text.Text = question5["answer1"];
-                        RB2_Text.Text = question5["answer2"];
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+                    }
+                    break;
+                case 3:
+                    if (RB1.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question3["answer1"]);
+                        countQuestion = 18;
+                        questions = question18;
+                        RB1.IsChecked = false;
+                        TB_QuestionText.Text = question18["text"];
+
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+
+                        RB3.Visibility = Visibility.Collapsed;
+                        RB4.Visibility = Visibility.Collapsed;
+                        RB5.Visibility = Visibility.Collapsed;
+                        RB6.Visibility = Visibility.Collapsed;
+                        RB7.Visibility = Visibility.Collapsed;
+                    }
+                    else if (RB2.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question3["answer2"]);
+                        countQuestion = 19;
+                        questions = question19;
+                        RB2.IsChecked = false;
+                        TB_QuestionText.Text = questions["text"];
+
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+
+                        RB3.Visibility = Visibility.Collapsed;
+                        RB4.Visibility = Visibility.Collapsed;
+                        RB5.Visibility = Visibility.Collapsed;
+                        RB6.Visibility = Visibility.Collapsed;
+                        RB7.Visibility = Visibility.Collapsed;
+                    }
+                    else if (RB3.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question3["answer3"]);
+                        countQuestion = 20;
+                        questions = question20;
+                        RB3.IsChecked = false;
+                        TB_QuestionText.Text = questions["text"];
+
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+
+                        RB3.Visibility = Visibility.Collapsed;
+                        RB4.Visibility = Visibility.Collapsed;
+                        RB5.Visibility = Visibility.Collapsed;
+                        RB6.Visibility = Visibility.Collapsed;
+                        RB7.Visibility = Visibility.Collapsed;
+                    }
+                    else if (RB4.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question3["answer4"]);
+                        countQuestion = 21;
+                        questions = question21;
+                        RB4.IsChecked = false;
+                        TB_QuestionText.Text = questions["text"];
+
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+
+                        RB3.Visibility = Visibility.Collapsed;
+                        RB4.Visibility = Visibility.Collapsed;
+                        RB5.Visibility = Visibility.Collapsed;
+                        RB6.Visibility = Visibility.Collapsed;
+                        RB7.Visibility = Visibility.Collapsed;
+                    }
+                    else if (RB5.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question3["answer5"]);
+                        countQuestion = 22;
+                        questions = question22;
+                        RB5.IsChecked = false;
+                        TB_QuestionText.Text = questions["text"];
+
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+
+                        RB3.Visibility = Visibility.Collapsed;
+                        RB4.Visibility = Visibility.Collapsed;
+                        RB5.Visibility = Visibility.Collapsed;
+                        RB6.Visibility = Visibility.Collapsed;
+                        RB7.Visibility = Visibility.Collapsed;
+                    }
+                    else if (RB6.IsChecked == true) // профессия
+                    {
+                        L_Answers.Items.Add(question3["answer6"]);
+                    }
+                    else if (RB7.IsChecked == true) // профессия
+                    {
+                        L_Answers.Items.Add(question3["answer7"]);
+                    }
+                    break;
+                case 4:
+                    if (RB1.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question4["answer1"]);
+                        countQuestion = 6;
+                        questions = question6;
+                        RB1.IsChecked = false;
+                        TB_QuestionText.Text = questions["text"];
+
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+
+                        RB3.Visibility = Visibility.Collapsed;
+                        RB4.Visibility = Visibility.Collapsed;
+                        RB5.Visibility = Visibility.Collapsed;
+                        RB6.Visibility = Visibility.Collapsed;
+                        RB7.Visibility = Visibility.Collapsed;
+                    }
+                    else if (RB2.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question4["answer2"]);
+                        countQuestion = 7;
+                        questions = question7;
+                        RB2.IsChecked = false;
+                        TB_QuestionText.Text = questions["text"];
+
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+                        RB2_Text.Text = questions["answer3"];
+
+                        RB4.Visibility = Visibility.Collapsed;
+                        RB5.Visibility = Visibility.Collapsed;
+                        RB6.Visibility = Visibility.Collapsed;
+                        RB7.Visibility = Visibility.Collapsed;
+                    }
+                    else if (RB3.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question4["answer3"]);
+                        countQuestion = 8;
+                        questions = question8;
+                        RB3.IsChecked = false;
+                        TB_QuestionText.Text = questions["text"];
+
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+
+                        RB3.Visibility = Visibility.Collapsed;
+                        RB4.Visibility = Visibility.Collapsed;
+                        RB5.Visibility = Visibility.Collapsed;
+                        RB6.Visibility = Visibility.Collapsed;
+                        RB7.Visibility = Visibility.Collapsed;
+                    }
+                    else if (RB4.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question4["answer4"]);
+                        countQuestion = 9;
+                        questions = question9;
+                        RB4.IsChecked = false;
+                        TB_QuestionText.Text = questions["text"];
+
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+
+                        RB3.Visibility = Visibility.Collapsed;
+                        RB4.Visibility = Visibility.Collapsed;
+                        RB5.Visibility = Visibility.Collapsed;
+                        RB6.Visibility = Visibility.Collapsed;
+                        RB7.Visibility = Visibility.Collapsed;
+                    }
+                    else if (RB5.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question4["answer5"]);
+                        countQuestion = 10;
+                        questions = question10;
+                        RB5.IsChecked = false;
+                        TB_QuestionText.Text = questions["text"];
+
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+
+                        RB3.Visibility = Visibility.Collapsed;
+                        RB4.Visibility = Visibility.Collapsed;
+                        RB5.Visibility = Visibility.Collapsed;
+                        RB6.Visibility = Visibility.Collapsed;
+                        RB7.Visibility = Visibility.Collapsed;
+                    }
+                    else if (RB6.IsChecked == true) 
+                    {
+                        L_Answers.Items.Add(question4["answer6"]);
+                        countQuestion = 11;
+                        questions = question11;
+                        RB6.IsChecked = false;
+                        TB_QuestionText.Text = questions["text"];
+
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+
+                        RB3.Visibility = Visibility.Collapsed;
+                        RB4.Visibility = Visibility.Collapsed;
+                        RB5.Visibility = Visibility.Collapsed;
+                        RB6.Visibility = Visibility.Collapsed;
+                        RB7.Visibility = Visibility.Collapsed;
+                    }
+                    else if (RB7.IsChecked == true) 
+                    {
+                        L_Answers.Items.Add(question4["answer7"]);
+                        countQuestion = 12;
+                        questions = question12;
+                        RB7.IsChecked = false;
+                        TB_QuestionText.Text = questions["text"];
+
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+
+                        RB3.Visibility = Visibility.Collapsed;
+                        RB4.Visibility = Visibility.Collapsed;
+                        RB5.Visibility = Visibility.Collapsed;
+                        RB6.Visibility = Visibility.Collapsed;
+                        RB7.Visibility = Visibility.Collapsed;
+                    }
+                    break;
+                case 5:
+                    if (RB1.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question5["answer1"]);
+                        countQuestion = 4;
+                        questions = question4;
+                        RB1.IsChecked = false;
+                        TB_QuestionText.Text = questions["text"];
+
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+                        RB3_Text.Text = questions["answer3"];
+                        RB4_Text.Text = questions["answer4"];
+                        RB5_Text.Text = questions["answer5"];
+                        RB6_Text.Text = questions["answer6"];
+                        RB7_Text.Text = questions["answer7"];
+
+                        RB3.Visibility = Visibility.Visible;
+                        RB4.Visibility = Visibility.Visible;
+                        RB5.Visibility = Visibility.Visible;
+                        RB6.Visibility = Visibility.Visible;
+                        RB7.Visibility = Visibility.Visible;
+                    }
+                    else if (RB2.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question5["answer2"]);
+                        countQuestion = 17;
+                        questions = question17;
+                        RB2.IsChecked = false;
+                        TB_QuestionText.Text = questions["text"];
+
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+                    }
+                    break;
+                case 7:                                         //профессии
+                    if (RB1.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question7["answer1"]);
+                    }
+                    else if (RB2.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question7["answer2"]);
+                    }
+                    else if (RB3.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question7["answer3"]);
+                    }
+                    break;
+                case 8:                                         //профессии
+                    if (RB1.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question8["answer1"]);
+                    }
+                    else if (RB2.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question8["answer2"]);
+                    }
+                    break;
+                case 9:
+                    if (RB1.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question9["answer1"]); //профессии
+                    }
+                    else if (RB2.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question9["answer2"]);
+                        countQuestion = 13;
+                        questions = question13;
+                        RB2.IsChecked = false;
+                        TB_QuestionText.Text = questions["text"];
+
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+                    }
+                    break;
+                case 10:
+                    if (RB1.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question10["answer2"]);
+                    }
+                    else if (RB2.IsChecked == true)             //профессии
+                    {
+                        L_Answers.Items.Add(question10["answer1"]);
+                        countQuestion = 13;
+                        questions = question13;
+                        RB2.IsChecked = false;
+                        TB_QuestionText.Text = questions["text"];
+
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+                    }
+                    break;
+                case 11:
+                    if (RB1.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question11["answer1"]);
+                        countQuestion = 14;
+                        questions = question14;
+                        RB1.IsChecked = false;
+                        TB_QuestionText.Text = questions["text"];
+
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+                    }
+                    else if (RB2.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question11["answer2"]);
+                        countQuestion = 15;
+                        questions = question15;
+                        RB2.IsChecked = false;
+                        TB_QuestionText.Text = questions["text"];
+
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+                    }
+                    break;
+                case 12:
+                    if (RB1.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question12["answer1"]); //профессии
+                    }
+                    else if (RB2.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question12["answer2"]);
+                        countQuestion = 16;
+                        questions = question16;
+                        RB2.IsChecked = false;
+                        TB_QuestionText.Text = questions["text"];
+
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+                    }
+                    break;
+                case 13:                                            //профессии
+                    if (RB1.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question13["answer1"]);
+                    }
+                    else if (RB2.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question13["answer2"]);
+                    }
+                    break;
+                case 14:                                            //профессии
+                    if (RB1.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question14["answer1"]);
+                    }
+                    else if (RB2.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question14["answer2"]);
+                    }
+                    break;
+                case 15:                                            //профессии
+                    if (RB1.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question15["answer1"]);
+                    }
+                    else if (RB2.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question15["answer2"]);
+                    }
+                    break;
+                case 16:                                            //профессии
+                    if (RB1.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question16["answer1"]);
+                    }
+                    else if (RB2.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question16["answer2"]);
+                    }
+                    break;
+                case 17:
+                    if (RB1.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question17["answer1"]);
+                        countQuestion = 9;
+                        questions = question9;
+                        RB1.IsChecked = false;
+                        TB_QuestionText.Text = questions["text"];
+
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+                    }
+                    else if (RB2.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question17["answer2"]);
+                        countQuestion = 12;
+                        questions = question12;
+                        RB2.IsChecked = false;
+                        TB_QuestionText.Text = questions["text"];
+
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+                    }
+                    break;
+                case 18:                                            //профессии
+                    if (RB1.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question18["answer1"]);
+                    }
+                    else if (RB2.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question18["answer2"]);
+                    }
+                    break;
+                case 19:                                            //профессии
+                    if (RB1.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question19["answer1"]);
+                    }
+                    else if (RB2.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question19["answer2"]);
+                    }
+                    break;
+                case 20:                                            //профессии
+                    if (RB1.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question20["answer1"]);
+                    }
+                    else if (RB2.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question20["answer2"]);
+                    }
+                    break;
+                case 21:                                            //профессии
+                    if (RB1.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question21["answer1"]);
+                    }
+                    else if (RB2.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question21["answer2"]);
+                    }
+                    break;
+                case 22:
+                    if (RB1.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question22["answer1"]); //профессии
+                    }
+                    else if (RB2.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question22["answer2"]);
+                        countQuestion = 23;
+                        questions = question23;
+                        RB2.IsChecked = false;
+                        TB_QuestionText.Text = questions["text"];
+
+                        RB1_Text.Text = questions["answer1"];
+                        RB2_Text.Text = questions["answer2"];
+                    }
+                    break;
+                case 23:                                            //профессии
+                    if (RB1.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question23["answer1"]);
+                    }
+                    else if (RB2.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question23["answer2"]);
                     }
                     break;
             }
