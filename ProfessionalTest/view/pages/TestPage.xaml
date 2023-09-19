@@ -5,7 +5,7 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:ProfessionalTest.view.pages"
       mc:Ignorable="d"
-      Title="MainPage" Width="540" Height="622">
+      Title="MainPage" Width="545" Height="622">
 
     <Grid>
         <Grid.RowDefinitions>
@@ -14,14 +14,14 @@
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="440"/>
-            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="105"/>
         </Grid.ColumnDefinitions>
         <TextBlock x:Name="TB_QuestionText" HorizontalAlignment="Center" TextWrapping="Wrap" 
        VerticalAlignment="Center" FontFamily="Segoe Print" 
        FontSize="24" TextAlignment="Center" 
        Foreground="#FF424AC0" Width="440" Height="90"/>
 
-        <ListBox x:Name="L_Answers" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" d:ItemsSource="{d:SampleData ItemCount=8}" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2" Grid.ColumnSpan="2" Panel.ZIndex="2" Margin="436,3,6,383" FontFamily="Segoe Print">
+        <ListBox x:Name="L_Answers" ScrollViewer.HorizontalScrollBarVisibility="Disabled" ScrollViewer.VerticalScrollBarVisibility="Disabled" d:ItemsSource="{d:SampleData ItemCount=8}" RenderTransformOrigin="0.5,0.5" Grid.RowSpan="2" Grid.ColumnSpan="2" Panel.ZIndex="2" Margin="436,3,6,383" FontFamily="Segoe Print" Width="115">
             <ListBox.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -112,7 +112,8 @@
                     <TextBlock Style="{StaticResource MyRBTextStyle}" x:Name="RB7_Text"/>
                 </RadioButton.Content>
             </RadioButton>
-            <Button x:Name="Btn_next" Grid.Column="1" Content="Дальше" HorizontalAlignment="Center" Grid.Row="4" VerticalAlignment="Center" Click="Btn_next_Click"/>
+            <Button x:Name="Btn_next" Style="{StaticResource MyButtonStyle}" Content="Далее" HorizontalAlignment="Left" Margin="68,9,0,0" VerticalAlignment="Top" Height="58" Width="132" FontFamily="Segoe Print" FontSize="30" Click="Btn_next_Click" Grid.Row="4" Grid.Column="1"/>
+            <Image HorizontalAlignment="Left" Height="60" Margin="10,10,0,0" VerticalAlignment="Top" Width="58" Source="/images/starImage.png" RenderTransformOrigin="-0.08,0.268" Grid.Row="4" Grid.Column="1"/>
         </Grid>
 
     </Grid>
