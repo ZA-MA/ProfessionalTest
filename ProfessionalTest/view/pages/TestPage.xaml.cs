@@ -53,8 +53,8 @@ namespace ProfessionalTest.view.pages
             {"answer5", "Общение с людьми" },
             {"answer6", "Решение ЧС" },
             {"answer7", "Работа с животными" },
-            {"ProfessionAnswer7", "Спасатель" },
-            {"ProfessionAnswer8", "Кинолог" },
+            {"ProfessionAnswer1", "Спасатель" },
+            {"ProfessionAnswer2", "Кинолог" },
         };
         static Dictionary<string, string> question4 = new Dictionary<string, string>()
         {
@@ -111,7 +111,7 @@ namespace ProfessionalTest.view.pages
             {"text", "Интересна ли вам медицина?" },
             {"answer1", "Нет"},
             {"answer2", "Да" },
-            {"ProfessionAnswer2", "Ветеринар" },
+            {"ProfessionAnswer1", "Ветеринар" },
         };
         static Dictionary<string, string> question11 = new Dictionary<string, string>()
         {
@@ -130,7 +130,7 @@ namespace ProfessionalTest.view.pages
         {
             {"text", "Что вам интересно?" },
             {"answer1", "Фермерство"},
-            {"answer2", "Изучение, выведение видов" },
+            {"answer2", "Изучение, выведение новых видов" },
             {"ProfessionAnswer1", "Агроном" },
             {"ProfessionAnswer2", "Биолог" },
         };
@@ -211,6 +211,7 @@ namespace ProfessionalTest.view.pages
             {"ProfessionAnswer1", "Журналист" },
             {"ProfessionAnswer2", "Юрист" },
         };
+        string profession = "Ваша будущая профессия:\n";
 
         int countQuestion = 1;
         static Dictionary<string, string> questions = question1;
@@ -228,6 +229,7 @@ namespace ProfessionalTest.view.pages
             RB5.Visibility = Visibility.Collapsed;
             RB6.Visibility = Visibility.Collapsed;
             RB7.Visibility = Visibility.Collapsed;
+            Btn_restart.Visibility = Visibility.Collapsed;
         }
 
        
@@ -397,10 +399,32 @@ namespace ProfessionalTest.view.pages
                     else if (RB6.IsChecked == true) // профессия
                     {
                         L_Answers.Items.Add(question3["answer6"]);
+                        TB_QuestionText.Text = profession + question3["ProfessionAnswer1"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        RB3.Visibility = Visibility.Collapsed;
+                        RB4.Visibility = Visibility.Collapsed;
+                        RB5.Visibility = Visibility.Collapsed;
+                        RB6.Visibility = Visibility.Collapsed;
+                        RB7.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility= Visibility.Visible;
                     }
                     else if (RB7.IsChecked == true) // профессия
                     {
                         L_Answers.Items.Add(question3["answer7"]);
+                        TB_QuestionText.Text = profession + question3["ProfessionAnswer2"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        RB3.Visibility = Visibility.Collapsed;
+                        RB4.Visibility = Visibility.Collapsed;
+                        RB5.Visibility = Visibility.Collapsed;
+                        RB6.Visibility = Visibility.Collapsed;
+                        RB7.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     break;
                 case 4:
@@ -559,34 +583,92 @@ namespace ProfessionalTest.view.pages
                         RB2_Text.Text = questions["answer2"];
                     }
                     break;
+                case 6:                                         //профессии
+                    if (RB1.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question6["answer1"]);
+                        TB_QuestionText.Text = profession + question6["ProfessionAnswer1"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
+                    }
+                    else if (RB2.IsChecked == true)
+                    {
+                        L_Answers.Items.Add(question6["answer2"]);
+                        TB_QuestionText.Text = profession + question6["ProfessionAnswer2"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
+                    }
+                    break;
                 case 7:                                         //профессии
                     if (RB1.IsChecked == true)
                     {
                         L_Answers.Items.Add(question7["answer1"]);
+                        TB_QuestionText.Text = profession + question7["ProfessionAnswer1"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
                         L_Answers.Items.Add(question7["answer2"]);
+                        TB_QuestionText.Text = profession + question7["ProfessionAnswer2"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     else if (RB3.IsChecked == true)
                     {
                         L_Answers.Items.Add(question7["answer3"]);
+                        TB_QuestionText.Text = profession + question7["ProfessionAnswer3"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     break;
                 case 8:                                         //профессии
                     if (RB1.IsChecked == true)
                     {
                         L_Answers.Items.Add(question8["answer1"]);
+                        TB_QuestionText.Text = profession + question8["ProfessionAnswer1"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
                         L_Answers.Items.Add(question8["answer2"]);
+                        TB_QuestionText.Text = profession + question8["ProfessionAnswer2"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     break;
                 case 9:
                     if (RB1.IsChecked == true)
                     {
                         L_Answers.Items.Add(question9["answer1"]); //профессии
+                        TB_QuestionText.Text = profession + question9["ProfessionAnswer1"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -601,20 +683,26 @@ namespace ProfessionalTest.view.pages
                     }
                     break;
                 case 10:
-                    if (RB1.IsChecked == true)
-                    {
-                        L_Answers.Items.Add(question10["answer2"]);
-                    }
-                    else if (RB2.IsChecked == true)             //профессии
+                    if (RB1.IsChecked == true) //профессии
                     {
                         L_Answers.Items.Add(question10["answer1"]);
                         countQuestion = 13;
                         questions = question13;
-                        RB2.IsChecked = false;
+                        RB1.IsChecked = false;
                         TB_QuestionText.Text = questions["text"];
 
                         RB1_Text.Text = questions["answer1"];
                         RB2_Text.Text = questions["answer2"];
+                    }
+                    else if (RB2.IsChecked == true)             
+                    {
+                        L_Answers.Items.Add(question10["answer2"]);
+                        TB_QuestionText.Text = profession + question10["ProfessionAnswer1"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     break;
                 case 11:
@@ -645,6 +733,12 @@ namespace ProfessionalTest.view.pages
                     if (RB1.IsChecked == true)
                     {
                         L_Answers.Items.Add(question12["answer1"]); //профессии
+                        TB_QuestionText.Text = profession + question12["ProfessionAnswer1"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -662,40 +756,88 @@ namespace ProfessionalTest.view.pages
                     if (RB1.IsChecked == true)
                     {
                         L_Answers.Items.Add(question13["answer1"]);
+                        TB_QuestionText.Text = profession + question13["ProfessionAnswer1"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
                         L_Answers.Items.Add(question13["answer2"]);
+                        TB_QuestionText.Text = profession + question13["ProfessionAnswer2"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     break;
                 case 14:                                            //профессии
                     if (RB1.IsChecked == true)
                     {
                         L_Answers.Items.Add(question14["answer1"]);
+                        TB_QuestionText.Text = profession + question14["ProfessionAnswer1"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
                         L_Answers.Items.Add(question14["answer2"]);
+                        TB_QuestionText.Text = profession + question14["ProfessionAnswer2"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     break;
                 case 15:                                            //профессии
                     if (RB1.IsChecked == true)
                     {
                         L_Answers.Items.Add(question15["answer1"]);
+                        TB_QuestionText.Text = profession + question15["ProfessionAnswer1"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
                         L_Answers.Items.Add(question15["answer2"]);
+                        TB_QuestionText.Text = profession + question15["ProfessionAnswer2"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     break;
                 case 16:                                            //профессии
                     if (RB1.IsChecked == true)
                     {
                         L_Answers.Items.Add(question16["answer1"]);
+                        TB_QuestionText.Text = profession + question16["ProfessionAnswer1"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
                         L_Answers.Items.Add(question16["answer2"]);
+                        TB_QuestionText.Text = profession + question16["ProfessionAnswer2"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     break;
                 case 17:
@@ -726,46 +868,100 @@ namespace ProfessionalTest.view.pages
                     if (RB1.IsChecked == true)
                     {
                         L_Answers.Items.Add(question18["answer1"]);
+                        TB_QuestionText.Text = profession + question18["ProfessionAnswer1"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
                         L_Answers.Items.Add(question18["answer2"]);
+                        TB_QuestionText.Text = profession + question18["ProfessionAnswer2"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     break;
                 case 19:                                            //профессии
                     if (RB1.IsChecked == true)
                     {
                         L_Answers.Items.Add(question19["answer1"]);
+                        TB_QuestionText.Text = profession + question19["ProfessionAnswer1"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
                         L_Answers.Items.Add(question19["answer2"]);
+                        TB_QuestionText.Text = profession + question19["ProfessionAnswer2"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     break;
                 case 20:                                            //профессии
                     if (RB1.IsChecked == true)
                     {
                         L_Answers.Items.Add(question20["answer1"]);
+                        TB_QuestionText.Text = profession + question20["ProfessionAnswer1"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
                         L_Answers.Items.Add(question20["answer2"]);
+                        TB_QuestionText.Text = profession + question20["ProfessionAnswer2"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     break;
                 case 21:                                            //профессии
                     if (RB1.IsChecked == true)
                     {
                         L_Answers.Items.Add(question21["answer1"]);
+                        TB_QuestionText.Text = profession + question21["ProfessionAnswer1"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
                         L_Answers.Items.Add(question21["answer2"]);
+                        TB_QuestionText.Text = profession + question21["ProfessionAnswer2"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     break;
                 case 22:
                     if (RB1.IsChecked == true)
                     {
                         L_Answers.Items.Add(question22["answer1"]); //профессии
+                        TB_QuestionText.Text = profession + question22["ProfessionAnswer1"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -783,10 +979,22 @@ namespace ProfessionalTest.view.pages
                     if (RB1.IsChecked == true)
                     {
                         L_Answers.Items.Add(question23["answer1"]);
+                        TB_QuestionText.Text = profession + question23["ProfessionAnswer1"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
                         L_Answers.Items.Add(question23["answer2"]);
+                        TB_QuestionText.Text = profession + question23["ProfessionAnswer2"];
+
+                        RB1.Visibility = Visibility.Collapsed;
+                        RB2.Visibility = Visibility.Collapsed;
+                        Btn_next.Visibility = Visibility.Collapsed;
+                        Btn_restart.Visibility = Visibility.Visible;
                     }
                     break;
             }
@@ -795,6 +1003,29 @@ namespace ProfessionalTest.view.pages
         private void Btn_next_Click(object sender, RoutedEventArgs e)
         {
             check();
+        }
+
+        private void Btn_restart_Click(object sender, RoutedEventArgs e)
+        {
+            L_Answers.Items.Clear();
+
+            countQuestion = 1;
+            TB_QuestionText.Text = question1["text"];
+            RB1_Text.Text = question1["answer1"];
+            RB2_Text.Text = question1["answer2"];
+
+            RB1.IsChecked = false;
+            RB2.IsChecked = false;
+            RB3.IsChecked = false;
+            RB4.IsChecked = false;
+            RB5.IsChecked = false;
+            RB6.IsChecked = false;
+            RB7.IsChecked = false;
+
+            RB1.Visibility = Visibility.Visible;
+            RB2.Visibility = Visibility.Visible;
+            Btn_next.Visibility = Visibility.Visible;
+            Btn_restart.Visibility = Visibility.Collapsed;
         }
     }
 }
