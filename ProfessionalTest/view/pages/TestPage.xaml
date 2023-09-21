@@ -61,9 +61,6 @@
                 <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
-
-
-            <Image HorizontalAlignment="Left" Height="100" Margin="10,115,0,0" VerticalAlignment="Top" Width="100" Source="/images/starImage.png" RenderTransformOrigin="-0.08,0.268" Grid.Column="2"/>
             <RadioButton x:Name="RB1" DockPanel.Dock="Top" 
              VerticalContentAlignment="Center"  HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="20" Margin="25,0,0,0">
                 <RadioButton.Content>
@@ -113,7 +110,8 @@
                 </RadioButton.Content>
             </RadioButton>
             <Button x:Name="Btn_next" Style="{StaticResource MyButtonStyle}" Content="Далее" HorizontalAlignment="Center" VerticalAlignment="Top" Height="58" Width="96" FontFamily="Segoe Print" FontSize="30" Click="Btn_next_Click" Grid.Row="4" Grid.Column="1"/>
-            <Button x:Name="Btn_restart" Style="{StaticResource MyButtonStyle}" Content="Начать заново" HorizontalAlignment="Left" VerticalAlignment="Center" Height="58" Width="234" FontFamily="Segoe Print" FontSize="30" Click="Btn_restart_Click" Grid.Row="2" Grid.ColumnSpan="2" Margin="110,0,0,0"/>
+            <Button x:Name="Btn_restart" Style="{StaticResource MyButtonStyle}" Content="Начать заново" HorizontalAlignment="Left" VerticalAlignment="Top" Height="58" Width="234" FontFamily="Segoe Print" FontSize="30" Click="Btn_restart_Click" Grid.Row="3" Grid.ColumnSpan="2" Margin="103,10,0,0"/>
+            <Image x:Name="IMG_Nice" HorizontalAlignment="Left" Height="235" Margin="78,-34,0,0" Grid.RowSpan="3" VerticalAlignment="Top" Width="284" Grid.ColumnSpan="2" Source="/images/NiceImage.png" Stretch="Fill"/>
         </Grid>
 
     </Grid>

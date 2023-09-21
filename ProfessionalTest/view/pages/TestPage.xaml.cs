@@ -230,6 +230,7 @@ namespace ProfessionalTest.view.pages
             RB6.Visibility = Visibility.Collapsed;
             RB7.Visibility = Visibility.Collapsed;
             Btn_restart.Visibility = Visibility.Collapsed;
+            IMG_Nice.Visibility = Visibility.Collapsed;
         }
 
        
@@ -410,6 +411,7 @@ namespace ProfessionalTest.view.pages
                         RB7.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility= Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     else if (RB7.IsChecked == true) // профессия
                     {
@@ -425,6 +427,7 @@ namespace ProfessionalTest.view.pages
                         RB7.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     break;
                 case 4:
@@ -593,6 +596,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -603,6 +607,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     break;
                 case 7:                                         //профессии
@@ -615,6 +620,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -625,6 +631,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     else if (RB3.IsChecked == true)
                     {
@@ -635,6 +642,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     break;
                 case 8:                                         //профессии
@@ -647,6 +655,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -657,6 +666,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     break;
                 case 9:
@@ -669,6 +679,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -703,6 +714,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     break;
                 case 11:
@@ -739,6 +751,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -762,6 +775,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -772,6 +786,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     break;
                 case 14:                                            //профессии
@@ -784,6 +799,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -794,6 +810,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     break;
                 case 15:                                            //профессии
@@ -806,6 +823,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -816,6 +834,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     break;
                 case 16:                                            //профессии
@@ -828,6 +847,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -838,6 +858,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     break;
                 case 17:
@@ -874,6 +895,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -884,6 +906,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     break;
                 case 19:                                            //профессии
@@ -896,6 +919,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -906,6 +930,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     break;
                 case 20:                                            //профессии
@@ -918,6 +943,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -928,6 +954,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     break;
                 case 21:                                            //профессии
@@ -940,6 +967,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -950,6 +978,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     break;
                 case 22:
@@ -962,6 +991,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -985,6 +1015,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     else if (RB2.IsChecked == true)
                     {
@@ -995,6 +1026,7 @@ namespace ProfessionalTest.view.pages
                         RB2.Visibility = Visibility.Collapsed;
                         Btn_next.Visibility = Visibility.Collapsed;
                         Btn_restart.Visibility = Visibility.Visible;
+                        IMG_Nice.Visibility = Visibility.Visible;
                     }
                     break;
             }
@@ -1026,6 +1058,7 @@ namespace ProfessionalTest.view.pages
             RB2.Visibility = Visibility.Visible;
             Btn_next.Visibility = Visibility.Visible;
             Btn_restart.Visibility = Visibility.Collapsed;
+            IMG_Nice.Visibility = Visibility.Collapsed;
         }
     }
 }
